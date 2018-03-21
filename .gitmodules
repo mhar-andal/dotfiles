@@ -15,7 +15,7 @@
 	url = https://github.com/nodenv/node-build.git
 [submodule "nodenv-update"]
 	path = nodenv-update
-	url = https://github.com/nodenv/nodenv-update
+	url = https://github.com/nodenv/nodenv-update.git
 [submodule "nodenv-aliases"]
 	path = nodenv-aliases
-	url = https://github.com/nodenv/nodenv-aliases
+	url = https://github.com/nodenv/nodenv-aliases.git
