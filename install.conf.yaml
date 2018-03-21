@@ -23,4 +23,10 @@
     #git
     ~/.gitconfig: gitconfig
     ~/.gitignore: gitignore
-
+    # ruby
+    ~/.gemrc: gemrc
+     # node
+    ~/.nodenv: nodenv
+    ~/.nodenv/plugins/node-build: node-build
+    ~/.nodenv/plugins/nodenv-aliases: nodenv-aliases
+    ~/.nodenv/plugins/nodenv-update: nodenv-update
