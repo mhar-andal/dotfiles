@@ -1,9 +1,7 @@
 - defaults:
-  # Link commands are specified as a dictionary mapping targets to source locations.
-  # Source locations are specified relative to the base directory (that is specified when running the installer). Directory names should not contain a trailing "/" character.
-  link:
-    create: true # if the parent directory should be created if necessary
-    relink: true
+    link:
+        create: true
+        relink: true
 
 - clean: ['~']
 
@@ -14,17 +12,21 @@
 
 - link:
     ~/.scripts: scripts
+
     #zsh
     ~/.zshenv: zshenv
     ~/.zshrc: zshrc
     ~/.zgen: zgen
     ~/.zprezto: prezto
     ~/.zpreztorc: zpreztorc
+
     #git
     ~/.gitconfig: gitconfig
     ~/.gitignore: gitignore
+
     # ruby
     ~/.gemrc: gemrc
+
      # node
     ~/.nodenv: nodenv
     ~/.nodenv/plugins/node-build: node-build

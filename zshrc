@@ -20,3 +20,5 @@ source "${HOME}/.scripts/aliases.sh"
 COMPLETION_WAITING_DOTS="true"
 
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+
