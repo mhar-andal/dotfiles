@@ -4,7 +4,7 @@ set -e
 echo ''
 
 DOTFILES_ROOT="${HOME}/.dotfiles"
-DOTFILES_REPO="git@github.com:danielmackey/dotfiles.git"
+DOTFILES_REPO="git@github.com:mhar-andal/dotfiles.git"
 
 if [[ ! -d ${DOTFILES_ROOT} ]]; then
   echo "Cloning repo"
