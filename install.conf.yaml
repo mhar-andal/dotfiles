@@ -1,0 +1,16 @@
+- defaults:
+  # Link commands are specified as a dictionary mapping targets to source locations.
+  # Source locations are specified relative to the base directory (that is specified when running the installer). Directory names should not contain a trailing "/" character.
+  link:
+    create: true # if the parent directory should be created if necessary
+    relink: true
+
+- clean: ['~']
+
+- shell:
+    - [xcode-select --install, Installing xcode tools]
+    - [git submodule update --init --recursive, Installing submodules]
+    - [chsh -s /usr/local/bin/zsh, Setting shell to zsh]
+
+- link:
+    ~/.scripts: scripts
