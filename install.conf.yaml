@@ -14,8 +14,13 @@
 
 - link:
     ~/.scripts: scripts
+    #zsh
     ~/.zshenv: zshenv
     ~/.zshrc: zshrc
     ~/.zgen: zgen
     ~/.zprezto: prezto
     ~/.zpreztorc: zpreztorc
+    #git
+    ~/.gitconfig: gitconfig
+    ~/.gitignore: gitignore
+
