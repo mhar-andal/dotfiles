@@ -4,6 +4,11 @@ Dotfiles were bootstrapped with https://github.com/anishathalye/dotbot
 
 also copied mostly from https://github.com/danielmackey/dotfiles
 
+## install
+```sh
+bash -c "$(curl -fsSL raw.github.com/mhar-andal/dotfiles/master/install)"
+```
+
 ## mac apps
 - [Itsycal](https://www.mowglii.com/itsycal/)
 - [Keeping You Awake](https://github.com/newmarcel/KeepingYouAwake)
