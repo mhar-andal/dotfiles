@@ -20,3 +20,4 @@ bash -c "$(curl -fsSL raw.github.com/mhar-andal/dotfiles/master/install)"
 - [CloudApp](https://www.getcloudapp.com/)
 - [Slack](https://slack.com/)
 - [Chrome](https://www.google.com/chrome/)
+- [iTerm2](https://www.iterm2.com/)
