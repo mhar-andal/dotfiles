@@ -3,7 +3,7 @@
 set -e
 echo ''
 
-DOTFILES_ROOT="${HOME}/.dotfiles"
+DOTFILES_ROOT="~/.dotfiles"
 DOTFILES_REPO="https://github.com/mhar-andal/dotfiles.git"
 
 if [[ ! -d ${DOTFILES_ROOT} ]]; then
